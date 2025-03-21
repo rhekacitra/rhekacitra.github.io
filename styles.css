@@ -1,12 +1,3 @@
-/* @font-face {
-    font-family: 'kindergarten';
-    src: url('fonts/kindergarten.woff2') format('woff2'),
-         url('fonts/kindergarten.woff') format('woff'),
-         url('fonts/kindergarten.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-} */
-
 :root {
     --text-color: #333333;
     --link-color: rgb(198, 84, 103);
@@ -29,7 +20,6 @@ body {
     background-color: var(--background-color);
     font-size: 30px;
     margin: 10px 50px; 
-    /* letter-spacing: 2px;  */
 }
   
 
@@ -74,9 +64,7 @@ a {
 
 
 
-/* NAVBAR */
-
-
+/* SECTION 1: NAVBAR */
 nav {
     position: fixed;
     top: 0;
@@ -106,7 +94,6 @@ nav .right {
     margin-left: auto;
 }
 
-/* Individual link styles */
 nav .right a {
     font-size: 25px;
     font-weight: 600;
@@ -114,12 +101,9 @@ nav .right a {
     padding: 8px 12px;
     border-radius: 12px;
     transition: all 0.3s ease-in-out;
-    /* background-color: #FFFFFF; */
-    /* box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); */
     text-decoration: none;
 }
 
-/* Make the last button (Email) more distinct */
 nav .right a:last-child {
     background-color: #D37A7A;
     color: white;
@@ -133,47 +117,7 @@ nav .right a:hover {
 }
 
 
-
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #E6F2FF;
-    padding: 15px 50px;
-    height: 100px;
-    border-radius: 15px; 
-    margin: 20px auto;
-    width: 90%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-nav .left a {
-    font-size: 24px;
-    font-weight: 700;
-    color: #4A76EE;
-}
-
-nav .right a {
-    font-size: 20px;
-    font-weight: 600;
-    color: #4A76EE;
-    padding: 8px 15px;
-    border-radius: 12px;
-    margin: 10px 10px;
-    transition: all 0.3s ease-in-out;
-    background-color: #FFFFFF;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
-}
-
-nav .right a:hover {
-    background-color: #FFCCE5;
-    color: #1A1C20;
-    transform: translateY(-3px);
-}  */
-
-
-
-/* SECTION 1: ABOUT */
+/* SECTION 2: ABOUT */
 .about-section {
     display: flex;
     flex-direction: column-reverse;
@@ -337,8 +281,6 @@ nav .right a:hover {
 
 }
 
-
-
 .project-text {
     margin-top: 100px;
     margin-left: 40px;
@@ -425,7 +367,6 @@ nav .right a:hover {
 
 
 @media (max-width: 850px) {
-    /* SECTION 1: About */
     .about-section .text h2 {
         font-size: 35px;
     }
@@ -433,7 +374,6 @@ nav .right a:hover {
 }
 
 @media (max-width: 740px) {
-    /* SECTION 1: About */
     .about-section {
         flex-direction: column-reverse;
         }
@@ -445,7 +385,6 @@ nav .right a:hover {
 }
 
 @media (max-width: 600px) {
-    /* */
     nav {
         padding: 0 20px;
     }
