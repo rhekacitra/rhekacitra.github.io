@@ -6,12 +6,19 @@
 
     <link rel="stylesheet" href="styles.css">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Gaegu&family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
     <title>rhekacitra</title>
 </head>
 <body>
@@ -20,7 +27,7 @@
     <!-- NAVBAR -->
     <nav>
         <div class="left">
-            <a href="/">Rheka Narwastu</a>
+            <a href="/">Rheka Narwastu </a>
         </div>
 
         <div class="right">
@@ -41,7 +48,7 @@
 
             <a href="mailto:rhekanarwastu@gmail.com" class="mail-link">
                 <i class="fa-regular fa-envelope"></i>    
-                <span>Email</span>
+                💌 <span>Email</span>
             </a>
         </div>
     </nav>
@@ -51,12 +58,12 @@
         <!--SECTION 1: ABOUT-->
         <section class="about-section">
             <div class="text">
-                <h2>Rheka Narwastu</h2>
-                <p>Hello! I'm Rheka, a data science undergraduate at University of California, San Diego who loves transforming datasets to something useful. 
+                <h2 class="typing-effect">Rheka Citra Narwastu</h2>
+                <p>Hello! I'm Rheka, a data science undergraduate from University of California, San Diego who loves transforming datasets to something useful. 
                 I'm particularly interested in the topics of data analystics and machine learning. I'm currently seeking internship for summer 2025!
                 <br>
                 <br>
-                Outside of academics, I love to cook, yoga, and rewatch Modern Family for the hundredth time 😋
+                Outside of academics, I'm a big fan of ATLA, Modern Family, and my cat Hojicha! 🐱
                 </p>
 
                 <div class="links">
@@ -125,6 +132,42 @@
 
             <div class="project-info">
                 <div class="project-photo">
+                    <img src="damage-prediction-img.png" alt="Damage Prediction" class="project-screenshot">
+                </div>
+                <div class="project-text">
+                    <a href="https://drive.google.com/file/d/1VQapH-g8HYd2oP9Iw55TCLLvXcc92VSs/view?usp=share_link" class="project-link">
+                        <h4 class="project-title">Damage Prediction by Wildfires</h4>
+                    </a>
+
+                    <p>
+                        This project develops a machine learning model to predict the severity of wildfire damage to structures 
+                        based on their physical attributes, construction materials, and external features. We performed model comparison
+                        on Logistic Regression, Random Forest, LightGBM, and XGBoost.
+                    </p>
+                    
+                    <a href="https://wildfiredamageprediction-duxhvpdfpga6vvafsrwm5n.streamlit.app" target="_blank" 
+                       style="display: block; text-align: center; margin: 10px auto 0; padding: 10px 10px; 
+                              background-color: rgb(198, 84, 103); color: white; border-radius: 8px; 
+                              font-weight: bold; transition: all 0.3s ease-in-out;
+                              width: fit-content;">
+                        Demo
+                    </a>
+                    
+                    <style>
+                        a:hover {
+                            background-color: rgb(198, 84, 103);
+                            color: white;
+                            transform: scale(1.05);
+                            text-decoration: none; /* Removes underline on hover */
+                        }
+                    </style>
+                    
+                    
+                </div>
+            </div>
+
+            <div class="project-info">
+                <div class="project-photo">
                     <img src="ishealthy.png" alt="Is Healthy" class="project-screenshot">
                 </div>
                 <div class="project-text">
@@ -140,6 +183,10 @@
                     </p>
                 </div>
             </div>
+
+
+
+
         </section>
     
 
